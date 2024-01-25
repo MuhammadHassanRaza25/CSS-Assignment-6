@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.header{
+    border-bottom: 1px solid gainsboro;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 28px;
+    gap: 10px;
+}
+.logo img{
+   height: 30px;
+}
+a{
+    color: #5f6368;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.icons{
+    display: flex;
+    gap: 25px;
+    margin-right: 20px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.icons i{
+    display: block;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.icons i:hover{
+    color:green;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+aside{
+    background-color: white;
+    border-right: 1px solid gainsboro;
+    width: 25%;
+    height: 570px;
+}
+.op1{
+    font-size: larger;
+    font-family: sans-serif;
+    padding: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.op1 p{
+    margin-left: 12px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.op2{
+    font-size:larger;
+    font-family: sans-serif;
+    padding: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+.op2 p{
+    margin-left: 12px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.op3{
+    font-size: larger;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.op3 p{
+    margin-left: 12px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+p:hover{
+     color: rgb(34, 212, 34);
+     padding-left: 6px;
+     transition: all 0.5s;
+     transition: normal;
+     transition-duration: 0.5s;
+     cursor: pointer;
+}
+.card{
+    position: absolute;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    top: 14%;
+    left: 27.3%;
+    width:22%;
+    height: 300px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.card p{
+  position: absolute;
+  font-size: larger;
+  top:5%;
+  left:7%;
+  color: white;
+  font-family: sans-serif;
+}
+.card p:hover{
+    text-decoration: underline;
+    padding-left: 0px;
+}
+.card h6{
+    position: absolute;
+    top:23%;
+    left: 7%;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+.card h6:hover{
+      text-decoration: underline;
+}
+.card img{
+    width:100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.icon2{
+    position: absolute;
+    top: 85%;
+    left: 66%;
+    font-size: x-large;
+    display: flex;
+    gap: 28px;
+}
+#line{
+    position: absolute;
+    top: 75%;
+    width:100%;
+    left:0%;
+    border-top: 1px solid gainsboro;
+}
+#sir{
+    width:28% ;
+    height: 83px;
+    position: absolute;
+    left:65%;
+    top:17%;
+}
+.card:hover{
+   border-color: green;
+   box-shadow: 1px 1px 5px green;
+   transition: all 0.5s;
+   transition: normal;
+   transition-duration: 0.5s;
+}
