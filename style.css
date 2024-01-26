@@ -19,13 +19,29 @@ body{
     display: flex;
     align-items: center;
     height: 50px;
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: 6px;
+    margin-left: 5%;
     font-size: 28px;
     gap: 10px;
 }
 .logo img{
    height: 30px;
+   margin-top: 5px;
+}
+#menu{
+    position: absolute;
+    font-size: 25px;
+    top: 3.3%;
+    left: 2%;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#menu:hover{
+    color:rgb(34, 212, 34);
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
 }
 a{
     color: #5f6368;
@@ -42,6 +58,7 @@ a:hover{
     margin-right: 20px;
     font-size: 25px;
     margin-top: 5px;
+    cursor: pointer;
 }
 .icons i{
     display: block;
@@ -58,11 +75,11 @@ a:hover{
 aside{
     background-color: white;
     border-right: 1px solid gainsboro;
-    width: 25%;
+    width: 24%;
     height: 570px;
 }
 .op1{
-    font-size: larger;
+    font-size:18px;
     font-family: sans-serif;
     padding: 20px;
     border-bottom: 1px solid gainsboro;
@@ -74,7 +91,9 @@ aside{
     transition-duration: 0.5s;
 }
 .op2{
-    font-size:larger;
+    font-size:18px;
+    height: 160px;
+    overflow-y: scroll;
     font-family: sans-serif;
     padding: 20px;
     border-bottom: 1px solid gainsboro;
@@ -86,7 +105,7 @@ aside{
     transition-duration: 0.5s;
 }
 .op3{
-    font-size: larger;
+    font-size:18px;
     font-family: sans-serif;
     padding: 20px;
 }
@@ -109,7 +128,7 @@ p:hover{
     border: 1px solid gainsboro;
     border-radius: 10px;
     top: 14%;
-    left: 27.3%;
+    left: 26%;
     width:22%;
     height: 300px;
     transition: all 0.5s;
@@ -146,6 +165,99 @@ p:hover{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.card:hover{
+    box-shadow: 1px 1px 5px black;
+}
+.card1{
+    position: absolute;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    top: 14%;
+    left: 50%;
+    width:22%;
+    height: 300px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.card1 p{
+  position: absolute;
+  font-size: larger;
+  top:5%;
+  left:7%;
+  color: white;
+  font-family: sans-serif;
+}
+.card1 p:hover{
+    text-decoration: underline;
+    padding-left: 0px;
+}
+.card1 h6{
+    position: absolute;
+    top:23%;
+    left: 7%;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+.card1 h6:hover{
+      text-decoration: underline;
+}
+.card1 img{
+    width:100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card1:hover{
+    box-shadow: 1px 1px 5px black;
+}
+.card2{
+    position: absolute;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    top: 14%;
+    left: 74%;
+    width:22%;
+    height: 300px;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.card2 p{
+  position: absolute;
+  font-size: larger;
+  top:5%;
+  left:7%;
+  color: white;
+  font-family: sans-serif;
+}
+.card2 p:hover{
+    text-decoration: underline;
+    padding-left: 0px;
+}
+.card2 h6{
+    position: absolute;
+    top:23%;
+    left: 7%;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+.card2 h6:hover{
+      text-decoration: underline;
+}
+.card2 img{
+    width:100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card2:hover{
+    box-shadow: 1px 1px 5px black;
+}
 .icon2{
     position: absolute;
     top: 85%;
@@ -153,6 +265,43 @@ p:hover{
     font-size: x-large;
     display: flex;
     gap: 28px;
+    cursor: pointer;
+}
+.icon2 i{
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+.icon2 i:hover{
+    color:rgb(34, 212, 34);
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#doticon{
+    position: absolute;
+    color: black;
+    top:6% ;
+    left:86% ;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+#QMARK{
+    position: absolute;
+    top:94.2% ;
+    left:97%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
+}
+#QMARK:hover{
+    color:rgb(34, 212, 34);
+    transition: all 0.5s;
+    transition: normal;
+    transition-duration: 0.5s;
 }
 #line{
     position: absolute;
@@ -168,10 +317,17 @@ p:hover{
     left:65%;
     top:17%;
 }
-.card:hover{
-   border-color: yellowgreen;
-   box-shadow: 1px 1px 5px green;
-   transition: all 0.5s;
-   transition: normal;
-   transition-duration: 0.5s;
+#imran{
+    width:36% ;
+    height: 100px;
+    position: absolute;
+    left:65%;
+    top:17%;
+}
+#inzamam{
+    width:39% ;
+    height: 115px;
+    position: absolute;
+    left:65%;
+    top:16%;
 }
