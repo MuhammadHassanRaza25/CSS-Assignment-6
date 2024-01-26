@@ -50,7 +50,7 @@ a:hover{
     transition-duration: 0.5s;
 }
 .icons i:hover{
-    color:green;
+    color:rgb(34, 212, 34);
     transition: all 0.5s;
     transition: normal;
     transition-duration: 0.5s;
@@ -169,7 +169,7 @@ p:hover{
     top:17%;
 }
 .card:hover{
-   border-color: green;
+   border-color: yellowgreen;
    box-shadow: 1px 1px 5px green;
    transition: all 0.5s;
    transition: normal;
